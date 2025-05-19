@@ -1,0 +1,30 @@
+.bg-gradient-custom{
+    background: var(--G1, linear-gradient(131deg, #E21B23 0%, #6D0002 100%)) !important;
+}
+.bg-custom{
+    background: var(--G1, linear-gradient(131deg, #E21B23 0%, #6D0002 100%)) !important;
+    height: 100vh !important;
+}
+
+
+.highlight-row {
+    background-color: #e6f7ff; /* Light blue background */
+  }
+
+
+
+  /* Override Ant Design Tabs Active Tab Color */
+.custom-tabs .ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn {
+    color: #861f22f1 !important;  /* Active tab text */
+    font-weight: bold;
+  }
+  
+  .custom-tabs .ant-tabs-tab:hover .ant-tabs-tab-btn {
+    color: #E21B23;
+  }
+  
+  .custom-tabs .ant-tabs-ink-bar {
+    background: linear-gradient(130.7deg, #E21B23 0%, #6D0002 100%) !important;
+    height: 3px; /* optional: make it thicker */
+    border-radius: 2px; /* optional: rounded edges */
+  }
